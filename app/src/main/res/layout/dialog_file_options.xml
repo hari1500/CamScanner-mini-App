@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingVertical="8dp"
+    android:paddingHorizontal="16dp">
+
+    <Button
+        android:id="@+id/dialog_file_options_pdf_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pdf_small"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:drawableStart="@drawable/ic_pdf_black_24"
+        android:drawablePadding="16dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <View
+        android:id="@+id/dialog_file_options_divider_1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginVertical="4dp"
+        android:background="@color/dividerColor"
+        app:layout_constraintTop_toBottomOf="@id/dialog_file_options_pdf_button"/>
+
+    <Button
+        android:id="@+id/dialog_file_options_jpeg_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/jpeg"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:drawableStart="@drawable/ic_jpg"
+        android:drawablePadding="16dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintTop_toBottomOf="@+id/dialog_file_options_divider_1" />
+
+    <View
+        android:id="@+id/dialog_file_options_divider_2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginVertical="4dp"
+        android:background="@color/dividerColor"
+        app:layout_constraintTop_toBottomOf="@id/dialog_file_options_jpeg_button"/>
+
+    <Button
+        android:id="@+id/dialog_file_options_long_image_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/long_image"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:drawableStart="@drawable/ic_long_jpg"
+        android:drawablePadding="16dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintTop_toBottomOf="@+id/dialog_file_options_divider_2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

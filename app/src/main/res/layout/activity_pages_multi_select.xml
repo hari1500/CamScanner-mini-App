@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cam.scanner.mini.PagesMultiSelectActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/pages_multi_select_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/pages_multi_select_bottom_layout"/>
+
+    <LinearLayout
+        android:id="@+id/pages_multi_select_bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary"
+        android:padding="8dp"
+        app:layout_constraintBottom_toBottomOf="parent">
+        <Button
+            android:id="@+id/pages_multi_select_delete"
+            android:drawableTop="@drawable/ic_delete"
+            android:text="@string/delete"
+            android:onClick="onClick"
+            style="@style/ImagesBottomLayoutIconsStyle"/>
+        <Button
+            android:id="@+id/pages_multi_select_share"
+            android:drawableTop="@drawable/ic_share"
+            android:text="@string/share"
+            android:onClick="onClick"
+            style="@style/ImagesBottomLayoutIconsStyle"/>
+        <Button
+            android:id="@+id/pages_multi_select_save"
+            android:drawableTop="@drawable/ic_save"
+            android:text="@string/save"
+            android:onClick="onClick"
+            style="@style/ImagesBottomLayoutIconsStyle"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

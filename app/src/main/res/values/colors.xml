@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#258B91</color>
+    <color name="colorPrimaryDark">#035059</color>
+    <color name="colorAccent">#F92770</color>
+    <color name="colorPrimaryVariant1">#06858D</color>
+    <color name="dividerColor">#CFD8DC</color>
+    <color name="itemDocumentNameTextColor">#333232</color>
+    <color name="itemDocumentNonTitleTextColor">#74787F</color>
+    <color name="cropAcceptableColor">#33FF4E</color>
+    <color name="cropRejectedColor">#C80E06</color>
+    <color name="greyColor">#808080</color>
+    <color name="dilutedBlackColor">#D6000000</color>
+    <color name="dialogButtonPressedColor">#DBE4E5</color>
+</resources>
+
+
+<!--<color name="colorPrimary">#FB6545</color>-->
+<!--<color name="colorPrimaryDark">#B62207</color>-->
+<!--<color name="colorAccent">#FC9078</color>-->
+
+<!--Orange color-->
+<!--<color name="colorPrimary">#FF4500</color>-->
+<!--<color name="colorPrimaryDark">#CC0000</color>-->
+<!--<color name="colorAccent">#FF6347</color>-->

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sort_by"
+        android:textSize="20sp"
+        android:textColor="@color/colorAccent"
+        android:textAlignment="center"
+        android:layout_marginBottom="4dp"/>
+
+    <RadioGroup
+        android:id="@+id/dialog_sort_radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton
+            android:id="@+id/dialog_sort_modified_time_dec_radio_button"
+            android:text="@string/modified_time_newest_first"
+            style="@style/SortRadioButtonsStyle"/>
+        <RadioButton
+            android:id="@+id/dialog_sort_modified_time_inc_radio_button"
+            android:text="@string/modified_time_newest_last"
+            style="@style/SortRadioButtonsStyle"/>
+        <RadioButton
+            android:id="@+id/dialog_sort_creation_time_dec_radio_button"
+            android:text="@string/creation_time_newest_first"
+            style="@style/SortRadioButtonsStyle"/>
+        <RadioButton
+            android:id="@+id/dialog_sort_creation_time_inc_radio_button"
+            android:text="@string/creation_time_newest_last"
+            style="@style/SortRadioButtonsStyle"/>
+        <RadioButton
+            android:id="@+id/dialog_sort_document_name_inc_radio_button"
+            android:text="@string/document_name_a2z"
+            style="@style/SortRadioButtonsStyle"/>
+        <RadioButton
+            android:id="@+id/dialog_sort_document_name_dec_radio_button"
+            android:text="@string/document_name_z2a"
+            style="@style/SortRadioButtonsStyle"/>
+    </RadioGroup>
+</LinearLayout>

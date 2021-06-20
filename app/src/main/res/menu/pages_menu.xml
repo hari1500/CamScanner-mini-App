@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/pages_menu_pdf"
+        android:icon="@drawable/ic_pdf"
+        android:title="@string/pdf"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/pages_menu_share"
+        android:icon="@drawable/ic_share_white_24"
+        android:title="@string/share"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/pages_menu_rename"
+        android:title="@string/rename"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/pages_menu_import_images"
+        android:title="@string/import_from_gallery"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/pages_menu_select"
+        android:title="@string/multi_select"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/pages_menu_manual_sorting"
+        android:title="@string/manual_sorting"
+        app:showAsAction="never" />
+</menu>

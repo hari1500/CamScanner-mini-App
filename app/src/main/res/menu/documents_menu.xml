@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/documents_menu_search"
+        android:icon="@drawable/ic_search"
+        android:title="@string/search"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="cam.scanner.mini.components.AdaptableSearchView" />
+
+    <item android:id="@+id/documents_menu_import_images"
+        android:title="@string/import_from_gallery"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/documents_menu_sort"
+        android:title="@string/sort_by"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/documents_menu_select"
+        android:title="@string/multi_select"
+        app:showAsAction="never" />
+</menu>
